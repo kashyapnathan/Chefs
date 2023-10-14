@@ -19,7 +19,7 @@ function UserTransactions({ userId }) {
   return (
     <div>
       <h2>User Transactions</h2>
-      <ul>
+      <ul>   
         {userTransactions.map((transaction, index) => (
           <li key={index}>{transaction.transaction_id}</li>  // Adjust as per your data structure
         ))}
